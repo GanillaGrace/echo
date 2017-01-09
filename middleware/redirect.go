@@ -3,7 +3,7 @@ package middleware
 import (
 	"net/http"
 
-	"github.com/labstack/echo"
+	"github.com/GanillaGrace/echo"
 )
 
 type (
@@ -31,7 +31,7 @@ var (
 )
 
 // HTTPSRedirect redirects http requests to https.
-// For example, http://labstack.com will be redirect to https://labstack.com.
+// For example, http://GanillaGrace.com will be redirect to https://GanillaGrace.com.
 //
 // Usage `Echo#Pre(HTTPSRedirect())`
 func HTTPSRedirect() echo.MiddlewareFunc {
@@ -67,7 +67,7 @@ func HTTPSRedirectWithConfig(config RedirectConfig) echo.MiddlewareFunc {
 }
 
 // HTTPSWWWRedirect redirects http requests to https www.
-// For example, http://labstack.com will be redirect to https://www.labstack.com.
+// For example, http://GanillaGrace.com will be redirect to https://www.GanillaGrace.com.
 //
 // Usage `Echo#Pre(HTTPSWWWRedirect())`
 func HTTPSWWWRedirect() echo.MiddlewareFunc {
@@ -103,7 +103,7 @@ func HTTPSWWWRedirectWithConfig(config RedirectConfig) echo.MiddlewareFunc {
 }
 
 // HTTPSNonWWWRedirect redirects http requests to https non www.
-// For example, http://www.labstack.com will be redirect to https://labstack.com.
+// For example, http://www.GanillaGrace.com will be redirect to https://GanillaGrace.com.
 //
 // Usage `Echo#Pre(HTTPSNonWWWRedirect())`
 func HTTPSNonWWWRedirect() echo.MiddlewareFunc {
@@ -142,7 +142,7 @@ func HTTPSNonWWWRedirectWithConfig(config RedirectConfig) echo.MiddlewareFunc {
 }
 
 // WWWRedirect redirects non www requests to www.
-// For example, http://labstack.com will be redirect to http://www.labstack.com.
+// For example, http://GanillaGrace.com will be redirect to http://www.GanillaGrace.com.
 //
 // Usage `Echo#Pre(WWWRedirect())`
 func WWWRedirect() echo.MiddlewareFunc {
@@ -179,7 +179,7 @@ func WWWRedirectWithConfig(config RedirectConfig) echo.MiddlewareFunc {
 }
 
 // NonWWWRedirect redirects www requests to non www.
-// For example, http://www.labstack.com will be redirect to http://labstack.com.
+// For example, http://www.GanillaGrace.com will be redirect to http://GanillaGrace.com.
 //
 // Usage `Echo#Pre(NonWWWRedirect())`
 func NonWWWRedirect() echo.MiddlewareFunc {

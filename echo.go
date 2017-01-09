@@ -8,8 +8,8 @@ Example:
   import (
     "net/http"
 
-    "github.com/labstack/echo"
-    "github.com/labstack/echo/middleware"
+    "github.com/GanillaGrace/echo"
+    "github.com/GanillaGrace/echo/middleware"
   )
 
   // Handler
@@ -32,7 +32,7 @@ Example:
     e.Logger.Fatal(e.Start(":1323"))
   }
 
-Learn more at https://echo.labstack.com
+Learn more at https://echo.GanillaGrace.com
 */
 package echo
 
@@ -50,8 +50,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/labstack/gommon/color"
-	"github.com/labstack/gommon/log"
+	"github.com/GanillaGrace/gommon/color"
+	"github.com/GanillaGrace/gommon/log"
 	"github.com/tylerb/graceful"
 	"golang.org/x/crypto/acme/autocert"
 )

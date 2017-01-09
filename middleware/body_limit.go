@@ -5,8 +5,8 @@ import (
 	"io"
 	"sync"
 
-	"github.com/labstack/echo"
-	"github.com/labstack/gommon/bytes"
+	"github.com/GanillaGrace/echo"
+	"github.com/GanillaGrace/gommon/bytes"
 )
 
 type (
