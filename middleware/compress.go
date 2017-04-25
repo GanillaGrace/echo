@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/GanillaGrace/echo"
+	"github.com/ganillagrace/echo"
 )
 
 type (

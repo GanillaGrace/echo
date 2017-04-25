@@ -3,7 +3,7 @@ package echo
 import (
 	"io"
 
-	"github.com/GanillaGrace/gommon/log"
+	"github.com/ganillagrace/gommon/log"
 )
 
 type (

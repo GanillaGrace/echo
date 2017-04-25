@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/GanillaGrace/echo"
+	"github.com/ganillagrace/echo"
 )
 
 type (

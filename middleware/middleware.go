@@ -1,6 +1,6 @@
 package middleware
 
-import "github.com/GanillaGrace/echo"
+import "github.com/ganillagrace/echo"
 
 type (
 	// Skipper defines a function to skip middleware. Returning true skips processing

@@ -1,6 +1,6 @@
 package middleware
 
-import "github.com/GanillaGrace/echo"
+import "github.com/ganillagrace/echo"
 
 type (
 	// MethodOverrideConfig defines the config for MethodOverride middleware.

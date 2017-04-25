@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/GanillaGrace/echo"
-	"github.com/GanillaGrace/gommon/random"
+	"github.com/ganillagrace/echo"
+	"github.com/ganillagrace/gommon/random"
 )
 
 type (

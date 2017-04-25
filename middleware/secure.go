@@ -3,7 +3,7 @@ package middleware
 import (
 	"fmt"
 
-	"github.com/GanillaGrace/echo"
+	"github.com/ganillagrace/echo"
 )
 
 type (

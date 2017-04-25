@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/GanillaGrace/echo"
-	"github.com/GanillaGrace/gommon/color"
+	"github.com/ganillagrace/echo"
+	"github.com/ganillagrace/gommon/color"
 )
 
 type (

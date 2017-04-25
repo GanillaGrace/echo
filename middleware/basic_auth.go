@@ -3,7 +3,7 @@ package middleware
 import (
 	"encoding/base64"
 
-	"github.com/GanillaGrace/echo"
+	"github.com/ganillagrace/echo"
 )
 
 type (
